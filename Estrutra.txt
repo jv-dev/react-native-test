@@ -1,0 +1,7 @@
+Para esse projeto eu pretendia criar quatro telas: A de login, a pagina principal, a pagina de carregamento e a pagina de noticias.
+
+Para as conexões externas com a API eu criaria na pasta src uma pasta chamada services, onde ficariam as funções de chamadas a API com o axios. Essas funções seriam importadas e chamadas no evento de cada botão necessário.
+
+Para guardar os dados do usuario logado eu usaria o AsyncStorage e quando fosse necessário fazer a renderização da segunda página e o uso de dados para a segunda chamada API eu os consultaria partir da ai.
+
+Obs.: Infelizmente eu tive problemas em instalar o @react-navigation/stack até as 13:30hrs, o que acabou me impedindo de continuar desenvolvendo o projeto (tendo em vista que essa dependência é essencial para a navegação de telas do projeto).
