@@ -17,8 +17,6 @@ export default function Login() {
         setUserPass('');
       } else {
         await AsyncStorage.setItem('userData', JSON.stringify(response.data));
-        const test = await AsyncStorage.getItem('userData')
-        console.log(test)
       }
     } catch {
       setUserName('');
